@@ -1,0 +1,84 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  background-image: url("https://th.bing.com/th/id/OIP.jagHV5zi4tklZqcFqtu4QgHaEo?rs=1&pid=ImgDetMain");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-color: transparent;
+  height: 100%;
+  align-items: center;
+  min-height: 100vh;
+
+
+
+  
+}
+
+.container {
+   width: 450px;
+   height: 450px;
+   background: #000;
+   opacity: 0.8;
+   color: #0066cc;
+   border-radius: 10px;
+   box-shadow: 0 0 50px #fff;
+}
+
+.container-sign {
+  width: 450px;
+  background: #000;
+
+}
+
+.container-sign h1 {
+  font-size: 50px;
+  text-align: center;
+
+}
+
+input {
+  width: 400px;
+  height: 25px;
+  border: 1px solid #000;
+  border-radius: 20px;
+}
+
+input[type="text"] {
+  display: block;
+  margin: 0 auto;
+
+}
+
+input[type="email"] {
+  display: block;
+  padding: 10px;
+  margin: 2em 11px;
+  
+}
+
+input[type="pass"] {
+  display: block;
+  padding: 10px;
+  margin: 2em 11px;
+}
+
+input[type="checkbox"] {
+  width: auto;
+  height: auto;
+  display: inline-block;
+  padding: 10px;
+
+}
+
+
+
+.container .btn {
+   width: 75%;
+   height: 7%;
+   border: 1px solid #000;
+   border-radius: 20px;
+   margin: 2em 50px;
+   background-color: #0066cc;
+   
+}
