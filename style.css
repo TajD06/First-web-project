@@ -2,13 +2,11 @@
 body {
   display: flex;
   justify-content: center;
-  background-image: url("https://th.bing.com/th/id/OIP.jagHV5zi4tklZqcFqtu4QgHaEo?rs=1&pid=ImgDetMain");
+  background-image: url("back3.jpg");
   background-size: cover;
-  background-position: 50% 50%;
-  background-color: transparent;
-  height: 100%;
+  background-position: center;
   align-items: center;
-  min-height: 100vh;
+  height: 100vh;
 
 
 
@@ -19,10 +17,11 @@ body {
    width: 450px;
    height: 450px;
    background: #000;
-   opacity: 0.8;
+   opacity: 0.7;
    color: #0066cc;
    border-radius: 10px;
    box-shadow: 0 0 50px #fff;
+   margin-left: 25px;
 }
 
 .container-sign {
@@ -32,8 +31,11 @@ body {
 }
 
 .container-sign h1 {
+  font-family: 'Roboto', sans-serif;
+  font-style: bold;
   font-size: 50px;
   text-align: center;
+  margin-left: 10px;
 
 }
 
@@ -68,6 +70,14 @@ input[type="checkbox"] {
   height: auto;
   display: inline-block;
   padding: 10px;
+  margin-left: 10px;
+
+}
+
+input[type="checkbox"], b{
+  font-family: 'Roboto', sans-serif;
+  text-transform: capitalize;
+  font-size: 13px;
 
 }
 
